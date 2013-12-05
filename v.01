@@ -1,0 +1,19 @@
+=begin
+from wikipedia: Benford's Law, also called the First-Digit Law, refers to the frequency distribution of digits in many (but not all) real-life sources of data. In this distribution, the number 1 occurs as the leading digit about 30% of the time, while larger numbers occur in that position less frequently: 9 as the first digit less than 5% of the time. 
+=end
+
+benford_law_dist = {"1"=>30.1, "2"=>17.6, "3"=>12.5, "4"=>9.7, "5"=>7.9, "6"=>6.7, "7"=>5.8, "8"=>5.1, "9"=>4.6}  
+
+p "Paste your data set here, it doesn't have to be in any specific format"
+data_set = gets.chomp
+
+
+
+into_array = data_set.split(" ")
+
+into_array
+
+#to do: 1) filter the array for only numbers, make sure that anything like 9a gets filtered out too. 2) Make this all into a method 3) Sort the array lo-hi 4) count how many numbers begin with each number 1 through 9 ....   5) calculate each count as a percentage of the whole 6) compare this percentage with the benford predictions and print the difference in expected %s
+
+p into_array
+
