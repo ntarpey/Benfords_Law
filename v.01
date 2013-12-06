@@ -14,6 +14,6 @@ into_array = data_set.split(" ")
 into_array
 
 #to do: 1) filter the array for only numbers, make sure that anything like 9a gets filtered out too. 2) Make this all into a method 3) Sort the array lo-hi 4) count how many numbers begin with each number 1 through 9 ....   5) calculate each count as a percentage of the whole 6) compare this percentage with the benford predictions and print the difference in expected %s
-
+#use scan,regexp
 p into_array
 
